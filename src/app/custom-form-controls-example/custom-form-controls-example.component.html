@@ -1,0 +1,6 @@
+<h3>Reactive Forms</h3>
+<form [formGroup]="myForm" (ngSubmit)="submit()">
+  <label for="switch-2">Switch 2</label>
+  <app-switch formControlName="mySwitch" id="switch-2"></app-switch>
+  <button>Submit</button>
+</form>
